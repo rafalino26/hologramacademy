@@ -7,12 +7,12 @@ type LayoutProps = {
 
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col text-white animated-bg">
       <Navbar />
-      <main className="flex-1 bg-[linear-gradient(to_right,_#00f1ff,_#004dff,_#00f1ff)]">{children}</main>
-      <footer className="bg-[linear-gradient(to_right,_#00f1ff,_#004dff,_#00f1ff)] text-center py-4 text-sm text-gray-500">
-        &copy; {new Date().getFullYear()} HologramAcademy. All rights reserved.
-      </footer>
+      <main className="flex-1 px-4 sm:px-6 md:px-8 backdrop-blur-md bg-white/10">
+        {children}
+      </main>
     </div>
   );
 }
+

@@ -3,13 +3,13 @@ import Layout from "@/components/layout";
 export default function HomePage() {
   return (
     <Layout>
-      <section className="bg-[linear-gradient(to_right,_#00f1ff,_#004dff,_#00f1ff)] py-20 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-black">
-          Welcome to Hologram Academy
-        </h1>
-        <p className="text-lg text-black max-w-xl mx-auto">
-          Your journey to become a star starts here!
-        </p>
+      <section className="py-20 text-center">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold animate-holo leading-[1.2]">
+      Welcome to Hologram Talent Academy
+    </h1>
+    <p className="text-2xl lg:text-5xl animate-holo mx-auto mt-2 pb-1 font-pacifico leading-[1.4]">
+    Your journey to become a star <br /> starts here!
+  </p>
       </section>
     </Layout>
   );
